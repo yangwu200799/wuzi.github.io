@@ -1,5 +1,5 @@
-# Kejin
+# WuZi
 
-> 自己选的路，跪着也要走下去
+> 过自己想要的生活才是真正的勇气
 
 ![Blog](/assets/img/blog.png)

@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
+title: WuZi
+description: Yang Wu
 favicon: /assets/img/avatar.JPG
 baseurl:
-url: https://liungkejin.github.io
+url: https://yangwu200799.github.io
 rss_url:
 
 # Build settings
@@ -11,7 +11,7 @@ rss_url:
 highlight: true
 #highlighter: rouge
 
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 
 markdown: kramdown
 kramdown:
