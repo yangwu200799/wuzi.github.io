@@ -1,14 +1,26 @@
 ---
-bg: "rails.jpg"
-layout: default
-crawlertitle: "Jekyll blog"
-title: "Voyager"
-summary: "main page"
+layout: blog_layout
 ---
 
-{% for post in site.posts limit: 5 %}
-  <article class="index-page">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-  </article>
+{% for post in site.posts %}
+<article class="preview">
+    <header>
+        <h2 class="post-title">
+            <a href="{{ post.url }}">  {{ post.title }} </a>
+        </h2>
+        <p class="post-time"> {{ post.time }}</p>
+    </header>
+    <section class="post-section">
+        <p>
+            {{ post.excerpt }}
+        </p>
+        <p class="readmore">
+            <a href="{{ post.url }}">
+                阅读全文
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            </a>
+        </p>
+    </section>
+
+</article>
 {% endfor %}
