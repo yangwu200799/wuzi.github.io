@@ -2,7 +2,7 @@
 layout: post
 title:  "redis跳表实现"
 date:   2016-10-16 14:36:23
-escription: 项目中用到的跳表 从redis中抽出实现
+description: 项目中用到的跳表 从redis中抽出实现，封装成类
 category: blog
 ---
 #redis跳表抽取与实现
