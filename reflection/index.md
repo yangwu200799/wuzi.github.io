@@ -5,7 +5,7 @@ layout: home
 <div class="index-content reflection">
     <div class="section">
         <ul class="artical-cate">
-            <li><a href="/"><span>Blog</span></a></li>
+            <li><a href="/"><span>Technology Blog</span></a></li>
             <li style="text-align:center"><a href="/life"><span>Life</span></a></li>
             <li class="on" style="text-align:right"><a href="/reflection"><span>Reflection</span></a></li>
         </ul>
