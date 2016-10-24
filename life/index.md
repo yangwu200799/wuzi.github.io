@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content dump">
+<div class="index-content life">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Technology Blog</span></a></li>
