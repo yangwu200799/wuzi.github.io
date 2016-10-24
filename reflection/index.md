@@ -2,18 +2,18 @@
 layout: home
 ---
 
-<div class="index-content dump">
+<div class="index-content reflection">
     <div class="section">
         <ul class="artical-cate">
-            <li><a href="/"><span>Technology Blog</span></a></li>
-            <li class="on" style="text-align:center"><a href="/life"><span>Life</span></a></li>
-            <li style="text-align:right"><a href="/reflecction"><span>Reflection</span></a></li>
+            <li><a href="/"><span>Blog</span></a></li>
+            <li style="text-align:center"><a href="/life"><span>Life</span></a></li>
+            <li class="on" style="text-align:right"><a href="/reflection"><span>Reflection</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <ul class="artical-list">
-        {% for post in site.categories.life %}
+        {% for post in site.categories.reflection %}
             <li>
                 <h2>
                     <a href="{{ post.url }}">{{ post.title }}</a>
